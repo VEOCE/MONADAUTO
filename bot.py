@@ -22,13 +22,13 @@ def display_header():
     border = "=" * 80
     print(Style.BRIGHT + Fore.CYAN + border)
     print(Style.BRIGHT + Fore.YELLOW + ascii_banner)
-    sub_header = "FREEDROPLINK".center(80)
+    sub_header = "".center(80)
     print(Style.BRIGHT + Fore.MAGENTA + sub_header)
     print(Style.BRIGHT + Fore.CYAN + border + "\n")
     # Mempertahankan header lama agar tidak menghapus apapun
     print(Style.BRIGHT + Fore.CYAN + "======================================")
     print(Style.BRIGHT + Fore.CYAN + "     MONAD TESTNET AUTO TRANSAKSI     ")
-    print(Style.BRIGHT + Fore.CYAN + "====================================\n")
+    print(Style.BRIGHT + Fore.CYAN + "======================================\n")
 
 shareithub()
 
