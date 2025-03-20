@@ -16,7 +16,7 @@ load_dotenv()
 def display_header():
     print(Style.BRIGHT + Fore.CYAN + "======================================")
     print(Style.BRIGHT + Fore.CYAN + "            BeanSwap Bot              ")
-    print(Style.BRIGHT + Fore.CYAN + "====================================\n")
+    print(Style.BRIGHT + Fore.CYAN + "======================================\n")
 
 display_header()
 
